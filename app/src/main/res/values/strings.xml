@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bottom App Bar Demo</string>
+    <string name="notification">Notification</string>
+</resources>

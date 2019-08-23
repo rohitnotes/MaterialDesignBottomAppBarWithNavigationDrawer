@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_bottom_app_bar">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:onClick="toggleFabMode"
+                android:text="Toggle FAB Mode"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="4dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam sollicitudin tempor id. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Vitae et leo duis ut diam quam nulla porttitor massa. Urna condimentum mattis pellentesque id nibh tortor id aliquet lectus. Nunc sed blandit libero volutpat sed cras. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Lectus arcu bibendum at varius vel pharetra. Posuere morbi leo urna molestie at elementum eu facilisis sed. Urna cursus eget nunc scelerisque viverra mauris. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. At erat pellentesque adipiscing commodo. Praesent tristique magna sit amet purus. Eget felis eget nunc lobortis mattis aliquam. Egestas sed sed risus pretium quam vulputate. Convallis aenean et tortor at risus viverra.
+
+Ut diam quam nulla porttitor massa id neque aliquam. Purus sit amet volutpat consequat mauris nunc congue nisi. Nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Semper quis lectus nulla at volutpat diam ut. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Sit amet massa vitae tortor condimentum. Condimentum vitae sapien pellentesque habitant morbi tristique. Feugiat sed lectus vestibulum mattis. Facilisis mauris sit amet massa vitae tortor condimentum. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Pellentesque diam volutpat commodo sed egestas egestas. Elementum tempus egestas sed sed. Nibh tortor id aliquet lectus proin nibh nisl condimentum."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
